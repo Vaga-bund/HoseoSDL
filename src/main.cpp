@@ -181,7 +181,7 @@ void render()
     SDL_RenderCopy(g_pRenderer, texureImage, &rectImage, &rectImage);
     SDL_RenderCopy(g_pRenderer, texureText, &rectText, &rectText);
 
-    filledCircleColor(g_pRenderer, 300, 300, 50, 0xFFFF0000);
+    filledCircleColor(g_pRenderer, 300, 300, 50, 0xFFFFFFFF);
 
     SDL_RenderPresent(g_pRenderer);
 }
